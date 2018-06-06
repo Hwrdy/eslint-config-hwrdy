@@ -16,7 +16,9 @@ module.exports = {
     'import/resolver': {
       node: {
         extensions: ['.js', '.json']
-      }
+      },
+
+      'babel-module': {}
     },
     'import/extensions': [
       '.js',
@@ -69,7 +71,12 @@ module.exports = {
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     // paths are treated both as absolute paths, and relative to process.cwd()
-    'import/no-extraneous-dependencies': ['off'],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        'devDependencies': true
+      }
+    ]
 
     // Forbid mutable exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
