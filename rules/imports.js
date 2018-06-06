@@ -76,7 +76,7 @@ module.exports = {
       {
         'devDependencies': true
       }
-    ]
+    ],
 
     // Forbid mutable exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
