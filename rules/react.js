@@ -15,7 +15,7 @@ module.exports = {
 
   globals: {
     'ReactClass': true
-  }
+  },
 
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
