@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-hwrdy",
+  "version": "0.0.1",
+  "description": "eslint config hwrdy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hwrdy/eslint-config-hwrdy.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "hwrdy"
+  ],
+  "author": "hwrdy.chyeh@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hwrdy/eslint-config-hwrdy/issues"
+  },
+  "homepage": "https://github.com/Hwrdy/eslint-config-hwrdy#readme",
+  "peerDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.9.1"
+  }
+}
